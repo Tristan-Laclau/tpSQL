@@ -6,6 +6,7 @@ public class Article {
 	private String description;
 	private String brand;
 	private double price;
+	private int quantite = 1;
 	
 	
 
@@ -51,8 +52,14 @@ public class Article {
 		this.price = price;
 	}
 
+	public int getQuantite() {
+		return quantite;
+	}
+	public void setQuantite(int quantite) {
+		this.quantite = quantite;
+	}
 	public String toString() {
-		return getDescription() +" "+ getBrand() +" "+ getPrice() + "\n";
+		return getDescription() +" | "+ getBrand() +" | "+ getPrice();
 		
 	}
 	

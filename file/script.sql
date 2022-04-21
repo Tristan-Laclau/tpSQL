@@ -66,7 +66,7 @@ SELECT Description
 FROM T_Articles;
 
 --1.11
-SELECT Description, UnitaryPrice
+SELECT Description
 FROM T_Articles
 WHERE Brand = 'Logitoch'
 ORDER BY UnitaryPrice;

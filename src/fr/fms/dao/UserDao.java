@@ -5,7 +5,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-import fr.fms.entities.Article;
 import fr.fms.entities.User;
 
 public class UserDao implements Dao<User> {

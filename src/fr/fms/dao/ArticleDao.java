@@ -40,7 +40,7 @@ public class ArticleDao implements Dao<Article>{
 				return article;
 				
 			}catch (Exception e) {
-				e.printStackTrace();
+				System.out.println("L'ID indiqué ne correspond à aucun article");
 			}
 			
 		}catch (SQLException e) {

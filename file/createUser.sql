@@ -4,4 +4,6 @@ Login varchar(20) NOT NULL,
 Password varchar(20) NOT NULL
 ) ENGINE = InnoDB;
 
-INSERT INTO T_Users (Login, Password) VALUES ('root', 'fms2022'); 
+INSERT INTO T_Users (Login, Password) VALUES ('root', 'fms2022');
+INSERT INTO T_Users (Login, Password) VALUES ('Eric', 'meric');
+INSERT INTO T_Users (Login, Password) VALUES ('Seb', 'aseb');
